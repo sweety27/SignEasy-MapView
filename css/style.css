@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    color: #34495e;
+}
+
+.byt header {
+    margin: 40px 0;
+    font-size: 44px;
+    font-weight: bold;
+    color: #D91E18;
+}
+
+a {
+    color: #aaa;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.form-horizontal {
+    margin-top: 20px;
+}
+
+label{
+    text-align: right;
+}
+.custom-form-control{
+    width: 50%;
+}
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 50%
+}
+
+#myUL li {
+  border: 1px solid #ddd; 
+  margin-top: -1px; 
+  background-color: #f6f6f6; 
+  padding: 12px; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: black; 
+  display: block; 
+}
+

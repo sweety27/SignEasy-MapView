@@ -1,0 +1,18 @@
+<div class="col-md-10 col-md-offset-1 table-responsive">
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th>Country</th>
+				<th>Latitude</th>
+				<th>Longitude</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="attr in listVar.response" ng-click="listVar.goToCreate(attr)">
+				<td>{{attr.country}}</td>
+				<td>{{attr.lat}}</td>
+				<td>{{attr.lng}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
